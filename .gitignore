@@ -95,5 +95,3 @@ appsettings.Production.json
 /.vs
 /obj
 /bin
-
-**/dist
