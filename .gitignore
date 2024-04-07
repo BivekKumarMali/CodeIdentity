@@ -1,0 +1,99 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+Bin/
+Obj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet packages
+**/[Pp]ackages/*
+# The package reference format stores all packages globally, so packages folder is no longer needed
+# Uncomment if you store packages within the project folder
+# !**/[Pp]ackages/build/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Tooling
+_ReSharper*/
+*.TestAdapter/
+*.TestResults/
+*.vs/
+
+# Files built by Visual Studio
+*.dbmdl
+*.log
+*.vspscc
+*.vssscc
+*.[Cc]ache
+*.[Rr]es[Hh]arper
+*.dotCover
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Others
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Azure Artifacts Credential Provider
+~/.nuget/plugins/cache
+
+# Application settings
+appsettings.Development.json
+appsettings.Production.json
+
+# Environment variables
+.env
+
+# Visual Studio 2022 cache/options directory
+.vs/
+
+# Exclude all
+**/[Oo]bj/
+**/[Bb]in/
+**/*.user
+**/*.azurePubxml
+**/*.pubxml
+**/.*.user
+**/.DS_Store
+**/*.suo
+**/*.sln.docstates
+**/.vs/
+
+# Exclude specific files/directories in the root of the project
+/*.userprefs
+/*.suo
+/.vs
+/obj
+/bin
+
+**/dist
